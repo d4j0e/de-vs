@@ -11,13 +11,13 @@
 
 <form action="auslesen.php" method="post">
  <p>System: <input type="text" name="sys" /></p>
- <p>Fundstücke <input type="textarea" name="inputvs" /></p>
+ <p>FundstÃ¼cke <input type="textarea" name="inputvs" /></p>
  <p><input type="eintragen" /></p>
 </form>
 
 <?php
 
-echo htmlspecialchars($_POST['sys']); ?>.
+echo htmlspecialchars($_POST['sys']);
 
 echo "\n";
 
